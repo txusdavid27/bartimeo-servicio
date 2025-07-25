@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "bartimeo-carpas",
+  "private_key_id": "fe8f39869d89b24c4edce5ebe713bac671298792",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDqrr30xqQ45N31\npY18Zb75kFVgfFkyRzmz1bgi51lzrh9t85kSo9jcQhGabcP9K0igQWRRTJOQdu59\nExGFTcdyRWgy11ek5NfTlFzS60LBnfJ2dp15lnMU3KsW5F5Cl4EnS511LkFkjPha\nchSjwwQhzg3rX+DCGnjg6jZtVOQv+/csRtaV4LaEZ61mPUih9wJg5DKODPnDFTZO\nO1pbFm/pDarjqcmguJIFZTmSwkGckhrD2WO/26tkB5VzwTAHqPUmLf1TNzM+Z3MW\nzf68DcJnwE5YgzpLm7E4j5mye0q6M6M/HJSLll863vTjPen9MOhrT7B0CBxmUd/V\nw3f+qql/AgMBAAECggEAANQ4MI6pEthgHleE3e0gFRKY8pvN1tsgjY2SNnFZxApX\n6xQCtOmmQPTsyf5cRF8sRQCmIZFjLg31frScCbwCGdm76f4PvbHfP0yVXVteY3+y\n1Q9LNBw/cNHsusp4uMR/PMvMFRdiPMAwumUPxJpSP+pR60Rt71GXnrfFFHLJ0Y+R\nDuJ+NYb8xvvaEnKLH3xh/IzOQa++O0lTtLY8oRIbmxm0Mc2N6CUr6AZItPGMCDXV\nhr7QKbdjZmLJi7GM+TxLATHOD9GWGY/3IltNgg/SJYkEMyXyymgCrSj016wqcV4h\nLRdeu1ikUGv2QZKWq4alX2XYUVYtt2n1mzLBkl6ScQKBgQD9sT2Ae9JnHydWl11Q\np4ofhNJU+DnwqmOKhC4wcmpi8t7zMv0sU5QMRYzuPH5BISMc4KKRplSNW05SROpe\nM8AqpdcCoCitytJVWWpw8qM1XKCtHppwPPhvrQBROXP26UUk9JEm5TV+T9qjYJyR\n//eEsaMpJhd7caAwoP8Jcc5J8QKBgQDs0TwZz791lBs7YmAq0GW6kjV3TfIW4v8W\ndYTE8CaaRx5bWHxHYPYFQZHRcaF4u7hEkqp7QmMMlys9H0A94f2JRWNpsuSW+vmH\niySry0OdykCLev1Qk4606oOrTVbR2AoXNGB/GqFkcRHx0VDnEVUlwBF5R9yqQM1O\n0w2ryPg6bwKBgQDRyKklAD+DCt4K2uxNb93mJn2PyhyPiTb7KkbPxS14WYJH9dgp\nuYtpgnIB54A392ED1jZY3wR4SBLCMT7lW0IDglQEVdCNtnSsI17Du8F+tPQhdHcd\nbS27m4HxqOLeQRPudVc6pLvRkdMo2xFeIh7aWdKkil1MtS9URy3e73844QKBgQCs\nYME2qJncpCoOV9VYVMk3vSVd6kbFkgXL+07ha00uD4ZxRz9vVYy+1rOlmOjIURwY\nDgo6HmCq0X6Pxyej49QBD5kFX0o0/AqWNxpCUnqtaIMDBEtPU5kU539gObNwm6j8\nqwtyeZfw3L0LICmbiGpKSDxv43ckFndbYRUabfcB0QKBgB3NXzuqEz3FW4cLU5GL\n01djBDsD5MguW8J9YgMCccR2DhY+nc044UqK5Ym7JYVJEJUMspk1cQw8hwZOwts4\nzabYJkT19MFpIiyDpta5yFwdOpFKmzhAlImJ6mNQijP5O/C9Gc41lWkzAqbWMPdU\n9ae1V6S0GNtdiiRfsD8gcC+q\n-----END PRIVATE KEY-----\n",
+  "client_email": "bartimeo-servicio@bartimeo-carpas.iam.gserviceaccount.com",
+  "client_id": "117431254257902738000",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bartimeo-servicio%40bartimeo-carpas.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
