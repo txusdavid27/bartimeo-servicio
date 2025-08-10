@@ -6,7 +6,8 @@ const os = require("os");
 
 const fs = require("fs");
 
-const credencialesPath = path.join(__dirname, "credenciales.json");
+// Usa la ruta del Secret File en Render
+const credencialesPath = process.env.GOOGLE_CREDENTIALS_PATH || "/etc/secrets/credenciales.json";
 const credenciales = JSON.parse(fs.readFileSync(credencialesPath, "utf8"));
 
 const SHEET_ID = "1mhsGZUQNHTTTiAk0Z4KV14Y_JfYv62HewgUE0eTxnNc";
