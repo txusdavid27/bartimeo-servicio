@@ -6,27 +6,15 @@ const os = require("os");
 
 const fs = require("fs");
 
-//const credencialesPath = path.join(__dirname, "credenciales.json");
-//const credenciales = JSON.parse(fs.readFileSync(credencialesPath, "utf8"));
+const credencialesPath = path.join(__dirname, "credenciales.json");
+const credenciales = JSON.parse(fs.readFileSync(credencialesPath, "utf8"));
 
 const SHEET_ID = "1mhsGZUQNHTTTiAk0Z4KV14Y_JfYv62HewgUE0eTxnNc";
 
-
-
-
 const auth = new google.auth.GoogleAuth({
-  keyFile: "/etc/secrets/credenciales.json",
-  scopes: ["https://www.googleapis.com/auth/spreadsheets"]
+  credentials: credenciales,
+  scopes: ["https://www.googleapis.com/auth/spreadsheets"],
 });
-
-
-
-
-
-// const auth = new google.auth.GoogleAuth({
-//   credentials: credenciales,
-//   scopes: ["https://www.googleapis.com/auth/spreadsheets"],
-// });
 
 const app = express();
 const PORT = 3000;

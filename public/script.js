@@ -104,7 +104,7 @@ function calcularCambio() {
     const cambio = pago - total;
     document.getElementById("cambio").textContent = `Cambio: ${cambio} COP`;
   
-    const denominaciones = [50000, 20000, 10000, 5000, 2000, 1000, 500];
+    const denominaciones = [20000, 10000, 5000, 2000, 1000, 500];
     const contenedorBonos = document.getElementById("bonos");
 
     // Limpiamos el contenido anterior
