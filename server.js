@@ -174,7 +174,8 @@ app.get("/qr", async (req, res) => {
 app.get("/ip", (req, res) => {
   const ip = getLocalIP();
   const fullURL = `http://${ip}:${PORT}`;
-  res.send(fullURL);
+  res.send('https://bartimeo-servicio.onrender.com');
+  //res.send(fullURL);
 });
 
 // === SERVIDOR ===
