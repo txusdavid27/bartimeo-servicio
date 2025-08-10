@@ -145,19 +145,31 @@ app.post("/guardar-pedido", async (req, res) => {
 
 app.get("/qr", async (req, res) => {
   try {
-    const ip = getLocalIP();
-    const fullURL = `http://${ip}:${PORT}`;
+    // Detecta si está en Render por la variable de entorno o el dominio del request
+    const isRender = process.env.RENDER === "true" || req.headers.host.includes("onrender.com");
+
+    let fullURL;
+    if (isRender) {
+      fullURL = "https://bartimeo-servicio.onrender.com";
+    } else {
+      const ip = getLocalIP();
+      fullURL = `http://${ip}:${PORT}`;
+    }
+
     const qr = await QRCode.toDataURL(fullURL);
     const img = Buffer.from(qr.split(",")[1], "base64");
+
     res.writeHead(200, {
       "Content-Type": "image/png",
       "Content-Length": img.length,
     });
     res.end(img);
   } catch (err) {
+    console.error(err);
     res.status(500).send("Error generando QR");
   }
 });
+
 
 app.get("/ip", (req, res) => {
   const ip = getLocalIP();
